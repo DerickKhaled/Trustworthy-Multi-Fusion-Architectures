@@ -6,4 +6,4 @@ We introduce the Trustworthy Multi-Fusion Architecture (TMFA) — a cutting-edge
 # Keywords: 
 Trustworthy AI, Reliable AI, Neuro-Symbolic Integration, Structured
 and Unstructured Data Fusion, Agentic AI Systems, Explainable AI (XAI), Hybrid AI
-Architectures, Multi-Agent Collaboration, Healthcare Informatics, Computational Finance
+Architectures, Multi-Agent Collaboration, Healthcare Informatics, Computational Finance
