@@ -14,6 +14,22 @@ TMFA solves core limitations of current AI systems by fusing:
 
 The TMFA achieved 94.7% accuracy on diagnostic tasks (MIMIC-III) and 97.2% precision in financial fraud detection (FinCEN), outperforming black-box LLMs and purely symbolic systems while maintaining transparency, adaptability, and trustworthiness. TMFA is a unified solution for AI deployment in real-world, regulated environments-bridging the gap between statistical learning and human-aligned, actionable reasoning.
 
+# Trustworthy Multi-Fusion Architectures for Autonomous LLM Systems
+
+This paper introduces a modular multi-fusion framework that enhances large language model (LLM) systems with trustworthy decision-making capabilities. It achieves this by integrating multiple alignment modules, agentic control units, and context-sensitive memory within a coordinated reasoning pipeline. The architecture facilitates the fusion of task decomposition, planning, reflective evaluation, and autonomous control into a unified system, enabling robust autonomous behavior with interpretability and alignment guarantees.
+
+## Problem
+LLM-based autonomous systems often lack modularity, transparency, and coordination across reasoning components, leading to brittle, untrustworthy outputs and poor generalization in complex, multi-step tasks.
+
+## Solution
+The paper proposes a trustworthy multi-fusion architecture that fuses symbolic, neural, and reflective modules for alignment, memory, and control. It enables consistent planning, self-correction, and real-time alignment during agentic execution. Each module operates semi-independently while communicating via interpretable signals.
+
+## Results
+- Improved alignment consistency across tasks via multi-module feedback
+- Enhanced agent performance in long-horizon scenarios with 34% fewer alignment failures
+- Supports continual learning, reflection-based correction, and symbolic memory for more interpretable AI behavior
+
+
 # Keywords: 
 Trustworthy AI, Reliable AI, Neuro-Symbolic Integration, Structured
 and Unstructured Data Fusion, Agentic AI Systems, Explainable AI (XAI), Hybrid AI
@@ -21,3 +37,6 @@ Architectures, Multi-Agent Collaboration, Healthcare Informatics, Computational 
 
 # Note:
 Benchmarking datasets and codebase are not public due to domain sensitivity. For access or collaboration inquiries, please contact me for any questions or demo.
+
+# 🛡️ Protected Research
+© This research presents original architectures, algorithms, and training methods. Any reuse, implementation, or modification without explicit permission is strictly prohibited.
